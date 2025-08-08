@@ -1,0 +1,7 @@
+requests
+PyYAML
+pandas
+tqdm
+pytrends
+beautifulsoup4
+google-genai

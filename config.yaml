@@ -1,0 +1,17 @@
+gemini_api_key: ""  #You have to use your own gemini api key
+
+brand_website: "https://www.muscleblaze.com"   # Example fitness supplements brand
+competitor_website: "https://www.optimumnutrition.com/en-in"  # Example competitor
+service_locations:
+  - Mumbai
+  - Delhi
+  - Bangalore
+budgets:
+    shopping_ads: 500
+    search_ads: 1000
+    pmax_ads: 700
+google_trends_geo: "IN"
+min_trends_score: 20
+output_dir: "output"
+gemini_model: "gemini-1.5-flash"
+

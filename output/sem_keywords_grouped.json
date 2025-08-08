@@ -1,0 +1,16 @@
+{
+  "ad_groups": [
+    {
+      "ad_group_name": "Misc",
+      "keywords": [],
+      "suggested_match_types": [
+        "Phrase"
+      ],
+      "suggested_cpc_range": [
+        0.5,
+        2.0
+      ]
+    }
+  ],
+  "all_keywords": []
+}

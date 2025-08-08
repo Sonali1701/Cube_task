@@ -1,0 +1,45 @@
+{
+  "brand": {
+    "name": "Cube (CubeHQ)",
+    "website": "https://www.cubehq.ai"
+  },
+  "competitor": {
+    "name": "HubSpot",
+    "website": "https://www.hubspot.com"
+  },
+  "service_locations": [
+    "Mumbai, India",
+    "Delhi, India",
+    "Bengaluru, India",
+    "Hyderabad, India"
+  ],
+  "ad_budgets_usd": {
+    "shopping": 800,
+    "search": 1500,
+    "pmax": 700
+  },
+  "other": {
+    "currency": "USD",
+    "conversion_rate": 0.02,
+    "min_search_volume": 500
+  },
+  "deliverable": {
+    "pick": 1,
+    "output_json": "outputs/campaign_plan.json",
+    "output_csv": "outputs/google_ads_ready.csv"
+  },
+  "llm": {
+    "provider": "gemini",
+    "api_key": "",
+    "model": "gemini-1.5-flash"
+  },
+  "automation": {
+    "use_wordstream_fallback": true,
+    "use_gkp_automation": false,
+    "playwright_user_data_dir": ""
+  },
+  "notes": [
+    "Change brand/competitor/locations/budgets above before running pipeline.",
+    "If you set use_gkp_automation=true you must install Playwright and supply user profile to avoid repeated logins/2FA."
+  ]
+}
